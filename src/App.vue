@@ -46,4 +46,10 @@ html,body{
   width: 100%;
   height: 100%;
 }
+a, img, div, form, select, input, ul, ol, li, h1, h2, h3, h4, h5, h6, dd, dl, dt, p, label, em, span, cude, i {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: middle;
+}
 </style>

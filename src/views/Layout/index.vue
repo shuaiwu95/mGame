@@ -1,15 +1,15 @@
 <template>
     <div class="container">
       <router-view />
-      <yd-tabbar :fixed="true" fontsize="1rem" padding="0.8rem 0">
+      <yd-tabbar :fixed="true" fontsize="1.5rem" padding="0.8rem 0">
         <yd-tabbar-item title="首页" link="/" :active="activeBar['home']" @click.native="onClickBar('home')">
-            <yd-icon name="home" slot="icon" size="2rem"></yd-icon>
+            <yd-icon name="home" slot="icon" size="3rem"></yd-icon>
         </yd-tabbar-item>
         <!-- <yd-tabbar-item title="购物车" link="#">
             <yd-icon name="shopcart" slot="icon" size="2rem"></yd-icon>
         </yd-tabbar-item> -->
         <yd-tabbar-item title="个人" link="/mine" :active="activeBar['mine']" @click.native="onClickBar('mine')">
-            <yd-icon name="ucenter-outline" slot="icon" size="2rem"></yd-icon>
+            <yd-icon name="ucenter-outline" slot="icon" size="3rem"></yd-icon>
         </yd-tabbar-item>
     </yd-tabbar>
     </div>
