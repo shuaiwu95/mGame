@@ -1,33 +1,48 @@
- [
-    {
-        "id": "1",
-        "name": "坦克大战",
-        "title": "tank play",
-        "src": "games/3-坦克大战/index.html"
-      }, {
-        "id": "2",
-        "name": "僵尸鸭猎手",
-        "title": "暂无介绍",
-        "src": "games/1-僵尸鸭猎手/index.html"
-      }, {
-        "id": "3",
-        "name": "僵尸枪手",
-        "title": "暂无介绍",
-        "src": "games/29-僵尸枪手/index.html"
-      }, {
-        "id": "4",
-        "name": "空战",
-        "title": "暂无介绍",
-        "src": "games/35-空战/index.html"
-      }, {
-        "id": "5",
-        "name": "狂鲨任务",
-        "title": "暂无介绍",
-        "src": "games/36-狂鲨任务/index.html"
-      }, {
-        "id": "6",
-        "name": "鱼类世界",
-        "title": "暂无介绍",
-        "src": "games/59-鱼类世界- MatCH3/index.html"
-      }
- ]
+[
+  {
+      "id": "1",
+      "name": "坦克大战",
+      "title": "tank play",
+      "src": "games/1/index.html"
+    }, {
+      "id": "7",
+      "name": "大脚车吃金币",
+      "title": "暂无介绍",
+      "src": "games/7/index.html"
+    }, {
+      "id": "10",
+      "name": "赛车",
+      "title": "暂无介绍",
+      "src": "games/10/index.html"
+    }, {
+      "id": "8",
+      "name": "神庙逃亡",
+      "title": "暂无介绍",
+      "src": "games/8/index.html"
+    }, {
+      "id": "2",
+      "name": "僵尸鸭猎手",
+      "title": "暂无介绍",
+      "src": "games/2/index.html"
+    }, {
+      "id": "3",
+      "name": "僵尸枪手",
+      "title": "暂无介绍",
+      "src": "games/3/index.html"
+    }, {
+      "id": "4",
+      "name": "空战",
+      "title": "暂无介绍",
+      "src": "games/4/index.html"
+    }, {
+      "id": "5",
+      "name": "狂鲨任务",
+      "title": "暂无介绍",
+      "src": "games/5/index.html"
+    }, {
+      "id": "6",
+      "name": "鱼类世界",
+      "title": "暂无介绍",
+      "src": "games/6/index.html"
+    }
+]
