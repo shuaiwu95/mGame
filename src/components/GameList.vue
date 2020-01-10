@@ -4,25 +4,35 @@
             <li>
                 <a href="javascript:void(0)">
                     <img src="http://imga4.5054399.com/upload_pic/2019/11/1/4399_17213250195.jpg">
-                    <em>街篮高手(新球员丽娜)</em>
-                    <p>实时联机街头篮球竞技游戏。</p>
+                    <em>{{name}}</em>
+                    <p>{{title}}</p>
                 </a>
-                <a class="btn">开始玩</a>
-            </li>
-            <li>
-                <a href="javascript:void(0)">
-                    <img src="http://imga4.5054399.com/upload_pic/2019/11/1/4399_17213250195.jpg">
-                    <em>街篮高手(新球员丽娜)</em>
-                    <p>实时联机街头篮球竞技游戏。</p>
-                </a>
-                <a class="btn">开始玩</a>
+                <a class="btn" @click="play(url)">开始玩</a>
             </li>
         </ul>
     </div>
 </template>
 <script>
 export default {
-
+  props: {
+    name: {
+      default: ''
+    },
+    title: {
+      default: ''
+    },
+    icon: {
+      default: ''
+    },
+    url: {
+      default: ''
+    }
+  },
+  methods: {
+    play (url) {
+      this.$emit('on-goPlay', url)
+    }
+  }
 }
 </script>
 <style scoped>

@@ -5,9 +5,13 @@
       <yd-tab-panel label="推荐">
           <recommond-view></recommond-view>
       </yd-tab-panel>
-      <yd-tab-panel label="最新">2</yd-tab-panel>
-      <yd-tab-panel label="排行">3</yd-tab-panel>
-      <yd-tab-panel label="分类">4</yd-tab-panel>
+      <yd-tab-panel label="扫码领红包">
+        <div class="img-con">
+          <img :src="require('@/assets/hb.png')"/>
+        </div>
+      </yd-tab-panel>
+      <!-- <yd-tab-panel label="排行">3</yd-tab-panel>
+      <yd-tab-panel label="分类">4</yd-tab-panel> -->
     </yd-tab>
   </div>
 </template>
@@ -20,5 +24,14 @@ export default {
 <style scoped>
 .container {
   width: 100%;
+}
+.img-con{
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+}
+img{
+  width: 100%;
+  height: 100%;
 }
 </style>

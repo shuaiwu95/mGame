@@ -10,5 +10,17 @@ export const systemApi = {
       },
       desc: '用户登录'
     }
+  ],
+  game: [
+    {
+      name: 'getGames',
+      method: 'POST',
+      path: '/app/gamestj.getData',
+      mockPath: '/app/gamestj.getData',
+      params: {
+        role: []
+      },
+      desc: '用户登录'
+    }
   ]
 }

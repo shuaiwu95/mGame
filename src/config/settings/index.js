@@ -3,8 +3,8 @@
   * API接口默认参数配置
   */
 export const API_DEFAULT_CONFIG = {
-  mockBaseUrl: 'http://localhost:3000',
-  prodBaseUrl: 'http://localhost:3000',
+  mockBaseUrl: 'http://localhost:9090',
+  prodBaseUrl: 'http://localhost:9090',
   isMocked: process.env.NODE_ENV !== 'production',
   isDebug: true,
   sep: '.'

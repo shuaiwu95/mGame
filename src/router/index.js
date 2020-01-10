@@ -5,6 +5,7 @@ import Layout from '@/views/Layout'
 import Login from '@/views/Login'
 import Home from '@/views/Home'
 import Mine from '@/views/Mine'
+import Play from '@/views/Play/playGame'
 Vue.use(Router)
 const routerInstance = new Router({
   routes: [
@@ -29,6 +30,14 @@ const routerInstance = new Router({
           path: 'mine',
           name: 'Mine',
           component: Mine,
+          meta: {
+            isCache: false,
+            requireAuth: false
+          }
+        }, {
+          path: 'play',
+          name: 'Play',
+          component: Play,
           meta: {
             isCache: false,
             requireAuth: false

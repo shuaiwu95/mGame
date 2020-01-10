@@ -32,6 +32,14 @@ export default {
       this.$router.push({ name: 'Login' })
     }
   },
+  mounted () {
+    const _self = this
+    document.addEventListener('plusready', function () {
+      window.plus.key.addEventListener('backbutton', function () {
+        _self.$router.back(-1)
+      })
+    }, false)
+  },
   data () {
     return {
       activeBar: {
