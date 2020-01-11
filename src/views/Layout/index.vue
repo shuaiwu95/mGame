@@ -36,6 +36,7 @@ export default {
     const _self = this
     document.addEventListener('plusready', function () {
       window.plus.key.addEventListener('backbutton', function () {
+        window.plus.screen.unlockOrientation() // 取消旋转屏幕
         _self.$router.back(-1)
       })
     }, false)

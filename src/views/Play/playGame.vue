@@ -20,6 +20,9 @@ export default {
     // window['plus'].navigator.setFullscreen(true)
     this.$refs.frame.onload = () => {
       this.$dialog.loading.close()
+      window.plus.nativeUI.toast('该页面需要横屏查看')
+      window.plus.screen.lockOrientation('landscape-primary')
+      window.plus.navigator.setFullscreen(true)
     }
   },
   data () {
