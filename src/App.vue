@@ -43,6 +43,31 @@ export default {
 </script>
 
 <style>
+  @font-face {
+    font-family: 'AAAAAAA';  /* project id 1604478 */
+    src: url('https://at.alicdn.com/t/font_1604478_un9zw25oit.eot');
+    src: url('https://at.alicdn.com/t/font_1604478_un9zw25oit.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_1604478_un9zw25oit.woff2') format('woff2'),
+    url('https://at.alicdn.com/t/font_1604478_un9zw25oit.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_1604478_un9zw25oit.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_1604478_un9zw25oit.svg#iconfont') format('svg');
+  }
+
+    [class^="yd-icon-"]:before, [class*=" yd-icon-"]:before {
+        font-family: 'AAAAAAA'!important;
+    }
+    .yd-icon-home:before {
+      content: "\e6b1"!important;
+    }
+    .yd-icon-ucenter-outline:before{
+      content: "\e670"!important;
+    }
+    .yd-icon-time:before{
+      content: "\e699"!important;
+    }
+    .yd-icon-ucenter:before{
+       content: "\e689"!important;
+    }
 @import url('./assets/styles/iconFont.css');
 html,body{
   margin: 0;

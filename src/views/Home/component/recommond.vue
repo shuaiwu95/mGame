@@ -12,7 +12,7 @@
         <yd-rollnotice-item><span style="color:#F00;"> 荐 </span>众多H5开源小游戏欢乐畅玩！</yd-rollnotice-item>
         <yd-rollnotice-item><span style="color:#F00;"> 荐 </span>更多精彩尽情期待！</yd-rollnotice-item>
     </yd-rollnotice>
-    <game-list v-for="item in gameList" :key="item.id" :name="item.name" :title="item.title" :url="item.src" @on-goPlay="goplay"></game-list>
+    <game-list v-for="item in gameList" :icon="item.icon" :key="item.id" :name="item.name" :title="item.title" :url="item.src" @on-goPlay="goplay"></game-list>
   </div>
 </template>
 <script>
@@ -26,7 +26,7 @@ export default {
     //   }
     // })
     // /mGame/dist/game.json
-    const getPath = process.env.NODE_ENV === 'development' ? './game.json' : '/mGame/dist/game.json'
+    const getPath = process.env.NODE_ENV === 'development' ? './game.json' : './game.json'
     this.$ajax.get(getPath).then(response => {
       // eslint-disable-next-line no-debugger
       this.gameList = response.data
@@ -52,5 +52,6 @@ export default {
 <style scoped>
 .container {
   width: 100%;
+  padding-bottom: 10rem;
 }
 </style>

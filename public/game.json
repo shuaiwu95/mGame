@@ -3,31 +3,64 @@
       "id": "1",
       "name": "坦克大战",
       "title": "tank play",
-      "src": "http://www.dmaku.com/demo/jquery/2018052554100561/"
+      "type": "sheji",
+      "src": "http://www.dmaku.com/demo/jquery/2018052554100561/",
+      "icon": "http://img.dmaku.com/upload/jquery/2018052511192.png"
     }, {
       "id": "7",
       "name": "大脚车吃金币",
       "title": "暂无介绍",
-      "src": "http://www.dmaku.com/demo/jquery/2018041053100102/"
+      "type": "saiche,chuangguan",
+      "src": "http://www.dmaku.com/demo/jquery/2018041053100102/",
+      "icon": "http://img.dmaku.com/upload/jquery/20180410161554.png"
     }, {
       "id": "4",
       "name": "雷霆战机",
       "title": "暂无介绍",
-      "src": "http://www.dmaku.com/demo/jquery/2018060510198485/"
+      "type": "sheji",
+      "src": "http://www.dmaku.com/demo/jquery/2018060510198485/",
+      "icon": "http://img.dmaku.com/upload/jquery/2018060591850.png"
     }, {
       "id": "10",
       "name": "赛车",
       "title": "暂无介绍",
-      "src": "http://www.dmaku.com/demo/jquery/2018040398102514/"
+      "type": "saiche,chuangguan",
+      "src": "http://www.dmaku.com/demo/jquery/2018040398102514/",
+      "icon": "http://img.dmaku.com/upload/jquery/20180403142946.png"
+    }, {
+      "id": "12",
+      "name": "网络战士",
+      "title": "暂无介绍",
+      "type": "saiche,chuangguan",
+      "src": "http://www.dmaku.com/demo/jquery/2018060610256101/",
+      "icon": "http://img.dmaku.com/upload/jquery/20180606165853.png"
+    }, {
+      "id": "13",
+      "name": "捕鱼达人",
+      "title": "暂无介绍",
+      "type": "saiche",
+      "src": "http://www.dmaku.com/demo-jquery-2033.html",
+      "icon": "http://img.dmaku.com/upload/jquery/20190908161326.png"
     }, {
       "id": "8",
-      "name": "神庙逃亡",
+      "name": "射击闯关",
       "title": "暂无介绍",
-      "src": "http://www.dmaku.com/demo/jquery/2018053148515657/"
+      "type": "chuangguan,maoxian,sheji",
+      "src": "http://www.dmaku.com/demo-jquery-1912.html",
+      "icon": "http://img.dmaku.com/upload/jquery/2018041011920.png"
     }, {
       "id": "2",
       "name": "僵尸鸭猎手",
       "title": "暂无介绍",
-      "src": "http://www.dmaku.com/demo/jquery/2018052598545510/"
+      "type": "sheji",
+      "src": "http://www.dmaku.com/demo/jquery/2018052598545510/",
+      "icon": "http://img.dmaku.com/upload/jquery/20180525103016.png"
+    }, {
+      "id": "11",
+      "name": "方块英雄",
+      "title": "暂无介绍",
+      "type": "chuangguan,maoxian",
+      "src": "http://www.dmaku.com/demo/jquery/2018052249535448/",
+      "icon": "http://img.dmaku.com/upload/jquery/2018052211239.png"
     }
 ]

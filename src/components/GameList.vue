@@ -3,7 +3,7 @@
         <ul>
             <li>
                 <a href="javascript:void(0)">
-                    <img src="http://imga4.5054399.com/upload_pic/2019/11/1/4399_17213250195.jpg">
+                    <img :src="icon">
                     <em>{{name}}</em>
                     <p>{{title}}</p>
                 </a>

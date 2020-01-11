@@ -2,7 +2,7 @@
     <div class="container">
         <div class="main-con">
             <span class="user"><yd-icon name="ucenter"></yd-icon></span>
-            <span class="login">立即登录</span>
+            <span class="login">您好，玩家</span>
         </div>
         <yd-cell-group style="margin-top:1rem;">
             <yd-cell-item arrow>
@@ -11,7 +11,7 @@
                 <span style="font-size:2rem;" slot="right">查看游玩记录</span>
             </yd-cell-item>
         </yd-cell-group>
-        <yd-button size="large" type="danger">注销</yd-button>
+        <!-- <yd-button size="large" type="danger">注销</yd-button> -->
     </div>
 </template>
 <script>
