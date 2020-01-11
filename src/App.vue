@@ -34,6 +34,10 @@ export default {
       this.initRem()
     }
     this.addViewToVisided()
+    this.$dialog.loading.open('正在加载，请耐心等待！')
+    window.onload = () => {
+      this.$dialog.loading.close()
+    }
   }
 }
 </script>

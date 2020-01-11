@@ -25,7 +25,9 @@ export default {
     //     this.gameList = res.list
     //   }
     // })
-    this.$ajax.get('./game.json').then(response => {
+    // /mGame/dist/game.json
+    const getPath = process.env.NODE_ENV === 'development' ? './game.json' : '/mGame/dist/game.json'
+    this.$ajax.get(getPath).then(response => {
       // eslint-disable-next-line no-debugger
       this.gameList = response.data
     }, response => {
