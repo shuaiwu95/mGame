@@ -8,41 +8,26 @@
       "id": "7",
       "name": "大脚车吃金币",
       "title": "暂无介绍",
-      "src": "games/7/index.html"
+      "src": "http://www.dmaku.com/demo/jquery/2018041053100102/"
+    }, {
+      "id": "4",
+      "name": "雷霆战机",
+      "title": "暂无介绍",
+      "src": "http://www.dmaku.com/demo/jquery/2018060510198485/"
     }, {
       "id": "10",
       "name": "赛车",
       "title": "暂无介绍",
-      "src": "games/10/index.html"
+      "src": "http://www.dmaku.com/demo/jquery/2018040398102514/"
     }, {
       "id": "8",
       "name": "神庙逃亡",
       "title": "暂无介绍",
-      "src": "games/8/index.html"
+      "src": "http://www.dmaku.com/demo/jquery/2018053148515657/"
     }, {
       "id": "2",
       "name": "僵尸鸭猎手",
       "title": "暂无介绍",
-      "src": "games/2/index.html"
-    }, {
-      "id": "3",
-      "name": "僵尸枪手",
-      "title": "暂无介绍",
-      "src": "games/3/index.html"
-    }, {
-      "id": "4",
-      "name": "空战",
-      "title": "暂无介绍",
-      "src": "games/4/index.html"
-    }, {
-      "id": "5",
-      "name": "狂鲨任务",
-      "title": "暂无介绍",
-      "src": "games/5/index.html"
-    }, {
-      "id": "6",
-      "name": "鱼类世界",
-      "title": "暂无介绍",
-      "src": "games/6/index.html"
+      "src": "http://www.dmaku.com/demo/jquery/2018052598545510/"
     }
 ]
