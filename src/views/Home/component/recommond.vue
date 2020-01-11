@@ -25,7 +25,7 @@ export default {
     //     this.gameList = res.list
     //   }
     // })
-    this.$ajax.get('/game.json').then(response => {
+    this.$ajax.get('./game.json').then(response => {
       // eslint-disable-next-line no-debugger
       this.gameList = response.data
     }, response => {
